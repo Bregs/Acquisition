@@ -23,7 +23,7 @@ while(True):
 cap.release()
 cv2.destroyAllWindows()
 
-hist = cv2.calcHist("opencv_frame_0.png", [0,1,2], None, [32,32,32], [0,255])
-plt.plot(hist) #où hist est la sortie de cv2.calcHist
-plt.title('Histogramme')
-plt.draw() #execute l affichage gggg
+#hist = cv2.calcHist("opencv_frame_0.png", [0,1,2], None, [32,32,32], [0,255])
+#plt.plot(hist) #où hist est la sortie de cv2.calcHist
+#plt.title('Histogramme')
+#plt.draw() #execute l affichage gggg
